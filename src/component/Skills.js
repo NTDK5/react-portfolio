@@ -49,11 +49,13 @@ const Skills =() => {
                 
                   {/* <VisibilityObserver onChangeVisibility={handleVisibility}> */}
                     <div className='skills'  ref={ref}>
-                        <Progressbar data-aos={"fade-left"} percent={85} visiblity = {visiblity} name ='HTML & css' />
-                        <Progressbar data-aos={"fade-left"} percent={80} name ='React js' visiblity = {visiblity} />
-                        <Progressbar data-aos={"fade-left"} percent={75} name ='python' visiblity = {visiblity}/>
-                        <Progressbar data-aos={"fade-left"} percent={70} name ='javaScript' visiblity = {visiblity} />
+                        <Progressbar data-aos={"fade-left"} percent={95} visiblity = {visiblity} name ='HTML & css' />
+                        <Progressbar data-aos={"fade-left"} percent={90} name ='React js' visiblity = {visiblity} />
+                        <Progressbar data-aos={"fade-left"} percent={88} name ='python' visiblity = {visiblity}/>
+                        <Progressbar data-aos={"fade-left"} percent={80} name ='javaScript' visiblity = {visiblity} />
                         <Progressbar data-aos={"fade-left"} percent={65} name ='c++' visiblity = {visiblity} />
+                        <Progressbar data-aos={"fade-left"} percent={82} name ='Next js' visiblity = {visiblity} />
+                        <Progressbar data-aos={"fade-left"} percent={75} name ='RESTapi' visiblity = {visiblity} />
                     </div>
                   {/* </VisibilityObserver> */}
 
