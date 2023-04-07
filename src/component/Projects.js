@@ -39,7 +39,7 @@ class Projects extends Component {
                   <h1 data-aos={"fade-left"}>React form</h1>
                   <p data-aos={"fade-left"}>This project is a react form. using material ui. Material UI is an open-source React component library that implements Google's Material Design.</p>
                       
-                 <button className='project_btn' data-aos={"fade-left"}>Live Demo</button><a href='' className='sourcecode'>Source Code</a>
+                 <a href='https://nati2345.github.io/react-form/'><button className='project_btn' data-aos={"fade-left"}>Live Demo</button></a><a href='' className='sourcecode'>Source Code</a>
               </div>
         </div>
         
