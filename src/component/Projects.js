@@ -9,6 +9,15 @@ class Projects extends Component {
         <div className='project_wrapper'>
           {/* <h1>Projects</h1> */}
           <div className='project_1'>
+          <div className='movie' data-aos={"fade-right"}></div>
+              <div className='project_text' >
+                  <h1 data-aos={"fade-left"}>Movie Website</h1>
+                  <p data-aos={"fade-left"}>This project is a movie Website. using Next js and <a href='https://www.themoviedb.org/'>TMDB</a> api. TMDB The Movie Database (TMDb): is a popular user ed- itable database for movies and TV shows.</p>
+                      
+                <a href=""> <button className='project_btn' data-aos={"fade-left"}>Live Demo</button></a><a href='https://github.com/nati2345/next-js' className='sourcecode'>Source Code</a>
+              </div>
+        </div>
+          <div className='project_1'>
               <div className='project_text' >
                   <h1 data-aos={"fade-right"}>Portfolio Website</h1>
                   <p data-aos={"fade-right"}>This project is portfolio website done with react. </p>
@@ -20,7 +29,7 @@ class Projects extends Component {
               <div className='project_text' >
                   <h1 data-aos={"fade-right"}>Gym website</h1>
                   <p data-aos={"fade-right"}>This is gym website done with html and css. design and developed by me. check it out annd let me know!</p>
-                  <button className='project_btn' data-aos={"fade-right"}>Live Demo</button><a href='https://nati2345.github.io/html-gym-website/' className='sourcecode' data-aos={"fade-right"}>Source Code</a>
+                  <button className='project_btn' data-aos={"fade-right"}>Live Demo</button><a href='https://nati2345.github.io/html-gym-website-project/' className='sourcecode' data-aos={"fade-right"}>Source Code</a>
               </div>
               <div className='gymimg' data-aos={"fade-left"}></div>
           </div>
@@ -33,6 +42,7 @@ class Projects extends Component {
                  <button className='project_btn' data-aos={"fade-left"}>Live Demo</button><a href='' className='sourcecode'>Source Code</a>
               </div>
         </div>
+        
         </div>
       </section>
     )
