@@ -374,6 +374,14 @@ li >a{
     font-weight: 300;
     color:#151515;
 }
+.movieweb{
+    width: 50%;
+    height: 350px;
+    background-image: url(../public/images/movie-app.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .portfolioimg{
     width: 50%;
     height: 350px;

@@ -8,6 +8,15 @@ class Projects extends Component {
       <section className='projects' id='project'>
         <div className='project_wrapper'>
           {/* <h1>Projects</h1> */}
+  
+          <div className='project_1'>
+              <div className='project_text' >
+                  <h1 data-aos={"fade-right"}>Movie Website</h1>
+                  <p data-aos={"fade-right"}>This project is portfolio website done with Next js using the TMDB(The Movie Database) api.The Movie Database (TMDB) is a community built movie and TV database. Every piece of data has been added by our amazing community dating back to 2008. TMDB's strong international focus and breadth of data is largely unmatched. </p>
+                     <a href='https://movie-8vdo.vercel.app/' ><button className='project_btn' data-aos={"fade-right"}>Live Demo</button></a><a href='https://github.com/nati2345/movie'  className='sourcecode' data-aos={"fade-right"}>Source Code</a>
+              </div>
+              <div data-aos={"fade-left"} className='movieweb'></div>
+          </div>
           <div className='project_1'>
           <div className='movie' data-aos={"fade-right"}></div>
               <div className='project_text' >
