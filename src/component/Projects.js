@@ -18,15 +18,6 @@ class Projects extends Component {
               <div data-aos={"fade-left"} className='movieweb'></div>
           </div>
           <div className='project_1'>
-          <div className='movie' data-aos={"fade-right"}></div>
-              <div className='project_text' >
-                  <h1 data-aos={"fade-left"}>Movie Website</h1>
-                  <p data-aos={"fade-left"}>This project is a movie Website. using Next js and <a href='https://www.themoviedb.org/'>TMDB</a> api. TMDB The Movie Database (TMDb): is a popular user ed- itable database for movies and TV shows.</p>
-                      
-                <a href=""> <button className='project_btn' data-aos={"fade-left"}>Live Demo</button></a><a href='https://github.com/nati2345/next-js' className='sourcecode'>Source Code</a>
-              </div>
-        </div>
-          <div className='project_1'>
               <div className='project_text' >
                   <h1 data-aos={"fade-right"}>Portfolio Website</h1>
                   <p data-aos={"fade-right"}>This project is portfolio website done with react. </p>
