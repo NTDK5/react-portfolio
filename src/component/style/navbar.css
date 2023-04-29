@@ -1,0 +1,138 @@
+.nav{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 45px;
+    padding:50px 50px ;
+    z-index: 99;
+    transition: 0.3s;
+}
+.burger-menu{
+    position:absolute;
+    left: 40px;
+    top: 35px;
+    background-color: none;
+    display: none;
+    align-items: center;
+    gap: 8px;
+    justify-content: space-between;
+    cursor: pointer;
+    z-index: 200;
+}
+
+.burger-bar{
+    background-color: #31D8B9;
+    display: block;
+    width: 40px;
+    height: 6px;
+    border-radius: 6px;
+    z-index: 10;
+    transition: ease-in 0.5s;
+    transform-origin: 0 0;
+
+}
+.menu{
+    width: 50%;
+    height: 100vh;
+    background-color: #121122;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    margin-left: -50%;
+    transition: all 1s;
+    transform: translateX(-100%);
+
+}
+.menu a{
+    cursor: pointer;
+    color: #fff;
+    font-size: 22px;
+}
+.menu >a:hover{
+    color: #8c38ff;
+    font-size: 23px;
+    border-bottom:2px solid #661722 ;
+}
+
+.hidden{
+    display: none;
+}
+.visible{
+    transform: translateX(100%) ;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.burger-bar.clicked{
+    background-color: #8c38ff;
+}
+.burger-bar.clicked:nth-child(1){
+    transform: translate(0px, 3px) rotate(45deg);
+    }
+.burger-bar.clicked:nth-child(2){
+    opacity: 0;
+    transform: translateX(15px);
+}
+.burger-bar.clicked:nth-child(3){
+    transform: translate(-4px,3px) rotate(-45deg); 
+}
+
+.burger-bar.unclicked{
+    transform: rotate(0) translate(0);
+    transition:cubic-bezier(0.175,0.885, 0.32, 1.275) 0.5s;
+}
+
+.nav_show{
+    background-color: #fff;
+}
+.nav-link{
+    display:flex ;
+    align-items: center;
+    flex-direction: row;
+
+}
+.active{
+  border-bottom: 3px solid #661722;  
+  color: #51CEFF;
+}
+li{
+    display:inline-block ;
+    list-style: none;
+}
+.nav-link > li{
+    margin-right:60px ;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.nav-link li>a:hover{
+    color: #7ddaff;
+}
+.active a{
+    color:#7ddaff ;
+}
+li >a{
+    color: #075B7B;
+}
+.nav-link >li >a{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 768px){
+    .burger-menu{
+        display: flex ;
+        flex-direction: column;
+    }
+    .nav-link{
+        display: none;
+    }
+}

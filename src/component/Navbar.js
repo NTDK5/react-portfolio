@@ -1,5 +1,5 @@
 import React, { useEffect,useState } from 'react';
-import "../App.css";
+import "./style/navbar.css";
 import Fade from 'react-reveal/Fade';
 import {Link} from "react-scroll";
 

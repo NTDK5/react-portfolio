@@ -1,0 +1,129 @@
+/* #home{
+    width: 100%;
+    height: 100vh;
+    border: 3px solid blue;
+} */
+.hero{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.hero-img{
+    width: 100vw;
+    height: 100%;
+    background-image: url(../../../public/images/hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    z-index: -99;
+}
+
+.hero-text{
+    position: fixed;
+    padding: 40px;
+    width:80% ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+
+}
+.hero-text  h1{
+    font-size: 80px;
+    color: #Fff;
+    font-weight: 300;
+}
+.hero-text .typed-cursor{
+    font-size: 100px;
+    color: #fff;
+    font-weight: 300;
+
+}
+.hero-text h3{
+    color: #fff;
+    font-size: 30px;
+    margin-top: 60px;
+    font-weight: 100;
+    opacity: 0;
+    animation: bounce 1s ease 4s forwards;
+}
+.downicon{
+    width: 40px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+    border-radius: 50%;
+    background-color: #1f1f1f;
+    margin-bottom: 20px;
+}
+
+.downicon > svg{
+    width:100px ;
+    color: #fff;
+}
+.downicon:hover{
+    background-color: #fcfcfc;
+    cursor: pointer;
+}
+.downicon:hover svg{
+    color: #8c38ff;
+}
+@keyframes bounce{
+    50%{
+        margin-top: 10px;
+        opacity: 1;
+    }
+    100%{
+        margin-top: 30px;
+        opacity: 1;
+    }
+}
+.hero_btn{
+    width:145px;
+    height: 50px;
+    background-color: #ffffff;
+    color: #212121;
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.hero_btn:hover{
+    background-color: #121112;
+    color: #B1D1E3;
+}
+
+
+@media only screen and (max-width: 768px){
+
+    .hero-text{
+        width: 100%;
+    }
+    .hero-text h1{
+        width: 100%;
+        font-size: 35px;
+    }
+    .downicon{
+        display: none;
+    }
+
+    .hero-text .typed-cursor{
+        font-size: 35px;
+    }
+    .hero-text h4{
+        font-size: 18px;
+        width: 100%;
+    }
+    .hero_btn{
+        margin-top: 25px;
+    }
+
+}

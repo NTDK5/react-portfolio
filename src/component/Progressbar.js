@@ -18,23 +18,6 @@ const Progressbar = (props) => {
     }
 
 
-      // only for one commponent instance
-   {/* useEffect( () => {
-      
-        setInterval(()=> {
-          if(counter === percent){
-            clearInterval()
-            
-          }
-        else{
-          counter += 1;
-          setnumber(counter)
-          console.log(percent) ;
-        }
-        }, 1000 )},[c])*/}
-
-
-        
   return (
         <Wrapper className="progressbar">
             <Outer>

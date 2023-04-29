@@ -1,0 +1,126 @@
+.projects{
+    position: relative;
+    width: 100%;
+    z-index: 4;
+    background-color:#ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+
+}
+.project_wrapper{
+    margin: 200px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+.project_1{
+    width: 60%;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.project_text{
+    width: 50%;
+    padding: 30px;
+}
+.project_text >*{
+    margin-bottom: 30px;
+}
+.project_btn{
+    width:100px;
+    height: 40px;
+    background-color: #ffffff;
+    border: 3px solid #31D8B9;
+    color:#31D8B9;
+}
+.project_btn:hover{
+    background-color: #31D8B9;
+    color:#fff;
+    cursor: pointer;
+}
+.sourcecode{
+    margin-left: 10px;
+    text-decoration: none;
+}
+.project_text h1{
+    font-size: 30px;
+    font-weight: 500;
+    color: #075B7B;
+
+}
+.project_text p{
+    font-size: 22px;
+    font-weight: 300;
+    color:#151515;
+}
+.img{
+    width: 50%;
+    height: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.movieweb{
+    background-image: url(../../../public/images/movie-app.png);
+}
+.portfolioimg{
+    background-image: url(../../../public/images/Screenshot\ 2022-11-05\ 132510.png);
+
+}
+.gymimg{
+
+    background-image: url(../../../public/images/Screenshot\ 2022-11-05\ 130350.png);
+
+}
+.formimg{
+    background-image: url(../../../public/images/Screenshot\ 2022-11-05\ 132248.png);
+    border: 1px solid #075B7B;
+
+}
+.gpt3-img{
+    background-image: url(../../../public/images/gpt-3.png);
+    border: 1px solid #075B7B;
+
+}
+
+
+@media only screen and (max-width: 768px){
+
+.project_wrapper{
+    margin: 0 0;
+    gap: 70px;
+    padding: 10px 50px;
+}
+.project_wrapper >h1{
+    color: #8c38ff;
+    font-size: 40px;
+}
+.project_1{
+    width: 90%;
+    flex-direction: column;
+    align-items: flex-start;
+    border-bottom: 1px solid #a3a3a3;
+}
+.project_text{
+    width: 100%;
+    padding: 10px;
+    order: 2;
+}
+.portfolioimg, .gymimg, .formimg{
+    width: 100%;
+    height: 300px;
+    order: 1;
+    border-radius: 15px ;
+
+}
+
+.img{
+    width: 100%;
+}
+}

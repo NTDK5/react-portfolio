@@ -3,10 +3,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faTwitter, faInstagram, faLinkedinIn,} from "@fortawesome/free-brands-svg-icons";
 import Typed from 'typed.js';
 import ScrollAnimation from "react-animate-on-scroll";
-// import "animate.css/animate.min.css";
 import Aos from 'aos';
 import 'aos/dist/aos.css';
-
+import './style/about.css'
 
 
 
@@ -52,18 +51,18 @@ const About =() => {
 
     return (
         <section className="about" id='about'>
-            <div className="about-img" data-aos={"fade-right"}></div>
+            <div className="about-img" data-aos={"fade-up"}></div>
             <div className="about-content">
                 <div className="about-text">
-                    <h1 data-aos={"fade-left"}>About</h1> 
+                    <h1 data-aos={"fade-up"}>About</h1> 
                    
-                   <div data-aos={"fade-left"} className='type'><h2 ref={el}></h2></div>
-                    <p data-aos={"fade-left"}>I'm Natan.Apassionate Freelancer Bringing you programing and design from the future.
+                   <div data-aos={"fade-up"} className='type'><h2 ref={el}></h2></div>
+                    <p data-aos={"fade-up"}>I'm Natan.Apassionate Freelancer Bringing you programing and design from the future.
                         I'm Experienced in Developing Web and desktop application including full front end design.
                         This includes brand identity graphics and illustration
                     </p>
                 </div>
-                <div className='social-links' data-aos={"fade-left"}>
+                <div className='social-links' data-aos={"fade-up"}>
                     <a href='https://github.com/nati2345?tab=repositories'>{github}</a>
                     {/* <a href='#'>{email}</a> */}
                     <a href='https://www.instagram.com/nathantamiru7/?utm_source=qr'>{instagram}</a>

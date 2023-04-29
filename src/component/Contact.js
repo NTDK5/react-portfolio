@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Aos from "aos";
 import 'aos/dist/aos.css';
+import './style/contact.css';
 
 export default class Contact extends Component {
 
@@ -9,7 +10,7 @@ export default class Contact extends Component {
     }
   render() {
     return (
-        <section class="contact" id ='contact'>
+        <section className="contact" id ='contact'>
             <div className='contact_wrraper'>
                 <div class="contact-text">
                     <h1 data-aos={"fade-up"}>CONTACT</h1>

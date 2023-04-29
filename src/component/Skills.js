@@ -3,6 +3,7 @@ import Progressbar from "./Progressbar";
 import { VisibilityObserver, useVisibility} from "reactjs-visibility";
 import Aos from "aos";
 import 'aos/dist/aos.css';
+import './style/skills.css';
 
 
 

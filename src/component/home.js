@@ -3,8 +3,7 @@ import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 import {Link} from "react-scroll";
 import Typed from "typed.js";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
-
+import "./style/home.css";
 
 const description = "web-developer/web designer."
 
@@ -37,11 +36,10 @@ const  Home = ()=>{
                 <div className="hero">
                      <div className="hero-img"></div>
                     <div className="hero-text">
-                    <div  className="type">
-                        <h1 ref={el}></h1>
-                    </div>
-                    <h3>{description}</h3>
-                    {/* <Fade left><Link to="contact" duration={500} smooth={true}><button className="hero_btn">{hero_btn}</button></Link></Fade> */}
+                        <div  className="type">
+                            <h1 ref={el}></h1>
+                        </div>
+                        <h3>{description}</h3>
                     </div>
                     <Link to="about" smooth={true} duration={500}>
                         <div className="downicon">
