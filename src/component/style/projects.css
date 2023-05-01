@@ -95,13 +95,15 @@
 .project_wrapper{
     margin: 0 0;
     gap: 70px;
-    padding: 10px 50px;
+    padding:0;
+
 }
 .project_wrapper >h1{
     color: #8c38ff;
     font-size: 40px;
 }
 .project_1{
+
     width: 90%;
     flex-direction: column;
     align-items: flex-start;
@@ -112,8 +114,8 @@
     padding: 10px;
     order: 2;
 }
-.portfolioimg, .gymimg, .formimg{
-    width: 100%;
+.img{
+    width: 60%;
     height: 300px;
     order: 1;
     border-radius: 15px ;

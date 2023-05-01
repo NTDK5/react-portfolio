@@ -15,7 +15,11 @@
     flex-direction: row;
     justify-content: center;
     gap: 20px;
+
+
 }
+
+
 .animate{
     animation:anime 2s linear forwards;
 
@@ -50,18 +54,22 @@
 .skills{
     width: 70%;
    display: grid;
-   grid-template-rows: 1fr 1fr 1fr;
+   /* grid-template-rows: 1fr 1fr 1fr; */
    grid-template-columns: 1fr 1fr ;
+   gap: 100px;
 
-    gap: 50px;
+
+
 }
 
 @media only screen and (max-width: 768px){
 
     .skill_wrapper{
-        margin: 100px 50px;
-        width: 90%;
+        /* margin: 100px; */
+        
+        width: 100%;
         flex-direction: column;
+        /* border: 3px solid blue; */
        
     }
     .skill_text{
@@ -71,6 +79,7 @@
         color: #075B7B;
     }
     .skills{
+        width: 100%;
         padding-left: 50px;
         gap: 80px;
     }
